@@ -13,10 +13,15 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, sans-serif;
-  background-color: var(--bg-light);
-  color: var(--text-dark);
-  line-height: 1.65;
+ body {
+  font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+  background: linear-gradient(90deg, var(--navy) 0%, var(--blue) 50%, var(--navy) 100%);
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
 }
 
 /* Navbar */
