@@ -275,3 +275,28 @@ body.home-only {
     height: 92px;
   }
 }
+.hero-logo-badge {
+  width: 118px;
+  height: 118px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.35rem;
+  line-height: 1.15;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  background: rgba(255, 255, 255, 0.07);
+  border: 2px solid rgba(250, 204, 21, 0.65);
+  border-radius: 20px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 820px) {
+  .hero-logo-badge {
+    width: 92px;
+    height: 92px;
+    font-size: 1.1rem;
+  }
+}
