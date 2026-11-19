@@ -6,7 +6,7 @@
   <title>SEMA &amp; BPM Fakultas Teknik — @semabpm_ftuntag</title>
   <style>
     :root {
-      --navy: #101b46;
+      --navy: #1e293b;
       --blue: #0033ff;
       --accent: #ff0;
       --bg: #f8fafc;
@@ -40,13 +40,19 @@
     }
     nav a:hover { color: var(--accent); }
     .hero {
-      background: linear-gradient(to right, var(--navy), var(--blue));
+      background: linear-gradient(
+    90deg,
+    var(--navy) 0%,
+    var(--navy) 22%,
+    var(--blue) 50%,
+    var(--navy) 78%,
+    var(--navy) 100%);
       color: var(--accent);
       padding: 3.5rem 1.5rem;
       text-align: center;
     }
     .hero h1 { font-size: 2rem; margin-bottom: 0.75rem; }
-    .hero p { max-width: 640px; margin: 0 auto 1.5rem; color: #e2e8f0; }
+    .hero p { max-width: 640px; margin: 0 auto 1.5rem; color: var(--accent); }
     .btn {
       display: inline-block;
       background: var(--accent);
@@ -82,7 +88,7 @@
 </head>
 <body>
   <header>
-    <div class="brand">SEMA &amp; BPM FT <span>@semabpm_ftuntag</span></div>
+    <div class="brand">SEMA &amp; BPM FT</span></div>
     <nav>
       <a href="#prodi">Prodi</a>
       <a href="#fitur">Menu Utama</a>
@@ -91,9 +97,9 @@
   </header>
 
   <section class="hero">
-    <h1>BADAN PERWAKILAN MAHASISWA<br />
+    <h1>SENAT MAHASISWA<br />
     DAN<br />
-    SENAT MAHASISWA<br />
+    BADAN PERWAKILAN MAHASISWA<br />
     FAKULTAS TEKNIK</h1>
     <p>UNIVERSITAS 17 AGUSTUS 1945 SAMARINDA</p>
   </section>
