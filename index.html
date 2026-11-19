@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEMA &amp; BPM Fakultas Teknik — @semabpm_ftuntag</title>
+  <style>
+    :root {
+      --navy: #0f172a;
+      --blue: #1d4ed8;
+      --accent: #f59e0b;
+      --bg: #f8fafc;
+      --text: #1e293b;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--navy);
+      color: #fff;
+      padding: 1rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .brand { font-weight: 700; font-size: 1.1rem; }
+    .brand span { color: var(--accent); }
+    nav a {
+      color: #e2e8f0;
+      text-decoration: none;
+      margin-left: 1.2rem;
+      font-size: 0.95rem;
+    }
+    nav a:hover { color: var(--accent); }
+    .hero {
+      background: linear-gradient(135deg, var(--navy), var(--blue));
+      color: #fff;
+      padding: 3.5rem 1.5rem;
+      text-align: center;
+    }
+    .hero h1 { font-size: 2rem; margin-bottom: 0.75rem; }
+    .hero p { max-width: 640px; margin: 0 auto 1.5rem; color: #e2e8f0; }
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--navy);
+      font-weight: 700;
+      padding: 0.7rem 1.3rem;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    main { max-width: 1000px; margin: 2.5rem auto; padding: 0 1.5rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.25rem;
+      margin-top: 1rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1.25rem;
+    }
+    .card h3 { margin-bottom: 0.5rem; color: var(--navy); }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #64748b;
+      font-size: 0.9rem;
+      border-top: 1px solid #e2e8f0;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">SEMA &amp; BPM FT <span>@semabpm_ftuntag</span></div>
+    <nav>
+      <a href="#prodi">Prodi</a>
+      <a href="#fitur">Menu Utama</a>
+      <a href="#aspirasi">Aspirasi</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Sinergi Aspirasi &amp; Inovasi Mahasiswa Teknik</h1>
+    <p>Portal resmi Senat Mahasiswa (SEMA) &amp; Badan Perwakilan Mahasiswa (BPM) Fakultas Teknik.</p>
+    <a class="btn" href="#aspirasi">Kirim Aspirasi Mahasiswa</a>
+  </section>
+
+  <main>
+    <section id="prodi">
+      <h2>Ruang Lingkup Fakultas Teknik</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Teknik Sipil</h3>
+          <p>Informasi akademik, praktikum, dan kegiatan mahasiswa Teknik Sipil.</p>
+        </div>
+        <div class="card">
+          <h3>Arsitektur</h3>
+          <p>Publikasi studio, pameran karya, dan informasi kemahasiswaan Arsitektur.</p>
+        </div>
+        <div class="card">
+          <h3>PWK</h3>
+          <p>Informasi kajian wilayah, studio perencanaan, dan agenda mahasiswa PWK.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="fitur" style="margin-top: 2.5rem;">
+      <h2>Pusat Informasi &amp; Dokumen</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Program Kerja &amp; Agenda</h3>
+          <p>Jadwal seminar, pelatihan teknis, dan kegiatan SEMA &amp; BPM FT.</p>
+        </div>
+        <div class="card">
+          <h3>Arsip Dokumen</h3>
+          <p>Tempat menaruh file panduan atau referensi PDF (misalnya di folder <code>dokumen/</code>).</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="aspirasi" style="margin-top: 2.5rem;">
+      <div class="card">
+        <h3>Kotak Aspirasi Mahasiswa</h3>
+        <p style="margin-bottom: 1rem;">Ganti URL <code>#</code> di bawah ini dengan link Google Form aspirasi resmi milik organisasi.</p>
+        <a class="btn" href="#" target="_blank" rel="noopener">Buka Form Aspirasi</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 SEMA &amp; BPM Fakultas Teknik &bull; Instagram: @semabpm_ftuntag
+  </footer>
+</body>
+</html>
